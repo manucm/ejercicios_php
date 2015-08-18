@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	display:block;
+	width:200px;
+	margin-left:1.4em;
+}
+
+/* Estilos generales */
+.tabla {
+	width:50%;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+.centrar {
+	margin: 1em auto !important;
+}
+
+.tabla th, .tabla td, .tabla {
+	border: 1px solid silver;
+	padding:.2em;
+	margin-top:1em;
+	text-align:center;
+}
+
+#content-wrap {
+	width: 80%;
+	margin:0 auto;
+}
+
+.enlaces_internos {
+	display:block;
+	width:50px;
+	margin:1em auto !important;
+	text-decoration: none;
+	background-color: #3369B3;
+	color: white;
+	border-radius:2px;
+	padding:.2em;
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	width:50%;
+	
+	margin:1em;
+	text-decoration: none;
+	background-color: #AB1F64;
+	color: white;
+	border-radius:2px;
+	padding:.2em;
+	text-align:center;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	font-size:60%;
+	color: silver !important;
+}
